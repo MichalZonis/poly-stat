@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+
+# Build outputs & Vite cache
+dist/
+dist-ssr/
+.vite/
+*.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs & OS / editor files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
